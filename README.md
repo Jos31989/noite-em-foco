@@ -56,9 +56,9 @@
   <p>Veja os melhores momentos das baladas 🔥</p>
 
   <div class="carousel">
-    <img src="foto1.jpg" alt="Foto 1" class="active" />
-    <img src="foto2.jpg" alt="Foto 2" />
-    <img src="foto3.jpg" alt="Foto 3" />
+    <img src="balada2.jfif" alt="Foto 1" class="active" />
+    <img src="balada3.jpg" alt="Foto 2" />
+    <img src="barcelona-camp-nou-1200x675.webp" alt="Foto 3" />
   </div>
 
   <div class="buttons">
@@ -85,8 +85,7 @@
       showImage(index);
     }
 
-    // 👇 Troca automática a cada 3 segundos
-    setInterval(next, 3000);
+    setInterval(next, 3000); // Troca automática a cada 3 segundos
   </script>
 </body>
 </html>
